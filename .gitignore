@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración específicos del sistema operativo (Fedora y Ubuntu)
+*~
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Archivos de logs
+*.log
+
+# Archivos generados por el entorno
+*.coverage
+.coverage.*
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Directorios de despliegue
+dist/
+build/
+*.egg-info/
+
+# Archivos temporales y de respaldo
+*.tmp
+*.bak
+*.old
+
+# Archivos creados por editores
+*.vscode/
+.idea/
+.vim/
+.vscode/
+
